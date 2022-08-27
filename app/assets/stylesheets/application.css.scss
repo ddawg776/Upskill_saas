@@ -17,7 +17,7 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
- body, .navbar {
+.navbar, .home-callout {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+47,a849a3+100;Pink+3D+%233 */
    background: #e570e7; /* Old browsers */
    background: -webkit-linear-gradient(left, #e570e7 0%, #c85ec7 47%, #a849a3 100%);
@@ -33,4 +33,12 @@ h1, h2, h3 {
 
 .navbar{
   border:none;
+}
+
+.home-callout,{
+  font-weight: bold;
+  color: #1cc7ed;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom:100px;
 }
