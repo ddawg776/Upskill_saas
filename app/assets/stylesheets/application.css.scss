@@ -27,32 +27,25 @@
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 ); /* IE6-9 */
   }
   
- .navbar-default .navbar-brand {
+  // Allows for hover color and text color for nav bar
+ .navbar-default .navbar-brand, .navbar-default .navbar-nav li a {
    color:white;
+   &:hover {
+     color: white;
+     opacity: 0.75;
+   }
  }
  
- .navbar-default .navbar-nav li a {
-    color:white;   
- }
- 
- .navbar-default .navbar-brand:hover{
-   color:white;
-   opacity: 0.75;
- }
- 
-  .navbar-default .navbar-nav li a:hover{
-    color:white;
-    opacity:0.75;
-  }
- 
+ // Typography styles
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+//Has the border not shown
 .navbar{
   border:none;
 }
-
+//Home page styles
 .home-callout,{
   font-weight: bold;
   color: #1cc7ed;
